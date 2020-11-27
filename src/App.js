@@ -1,8 +1,9 @@
 import React, { Component } from "react"
-// import generator from "sudoku"
+import generator from "sudoku"
+import SudokuBoard from "./components/SudokuBoard";
 import "./App.css";
 
-// window.generator = generator
+window.generator = generator
 
 /*
   Generates a sudoku with the structure
