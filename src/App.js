@@ -5,7 +5,6 @@ import SudokuBoard from "./components/SudokuBoard";
 import "./App.css";
 
 window.generator = generator
-
 /*
   Generates a sudoku with the structure
     {rows: [{index: 0, cols: [{row: 0, col: 0, value: 1, readonly: true}, ...]}, ...]}
