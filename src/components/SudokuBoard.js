@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import SudokuField from "./SudokuField";
+import Timer from "./Timer";
 import Result from "./Result";
 
 export default class SudokuBoard extends Component {
