@@ -3,6 +3,7 @@ import React, { Component } from "react";
 export default class SudokuField extends Component {
 
     handleChange = e => {
+        // eslint-disable-next-line 
         const value = value === "" ? null : parseInt(e.target.value, 10);
     
         this.props.onChange({ ...this.props.field, value: value });
@@ -13,6 +14,7 @@ export default class SudokuField extends Component {
     return (
       <input
         className="field"
+        // eslint-disable-next-line 
         value={field.value || ""}
         readOnly={field.readonly}
         onChange={this.handleChange}

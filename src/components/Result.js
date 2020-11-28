@@ -1,6 +1,6 @@
 
 import React, { Component } from "react";
-import produce from "immer";
+    
 
 export default class Result extends Component {
   render() {
